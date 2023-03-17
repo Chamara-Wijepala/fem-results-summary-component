@@ -12,16 +12,18 @@
     />
     <title>Results Summary Component</title>
   </head>
-  <body class="font-hanken text-lg">
-    <main>
-      <div>
+  <body class="min-h-screen font-hanken text-lg">
+    <main class="min-h-screen md:flex md:items-center md:justify-center">
+      <div
+        class="mx-auto max-w-[45rem] md:grid md:grid-cols-2 md:rounded-[2rem] md:shadow-2xl"
+      >
         <div
-          class="flex flex-col justify-center gap-4 rounded-b-[2rem] bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue px-12 pt-6 pb-10 text-center text-lightLavender"
+          class="flex flex-col justify-center gap-4 rounded-b-[2rem] bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue px-12 pt-6 pb-10 text-center text-lightLavender md:rounded-[2rem]"
         >
           <h2>Your Result</h2>
 
           <div
-            class="mx-auto aspect-square rounded-full bg-gradient-to-b from-violetBlue to-persianBlue/0 p-8"
+            class="mx-auto aspect-square rounded-full bg-gradient-to-b from-violetBlue to-persianBlue/0 p-8 md:my-4 md:p-12"
           >
             <p class="flex flex-col">
               <span class="text-6xl font-extrabold text-white">76</span>
@@ -39,7 +41,7 @@
         </div>
 
         <div class="py-4 px-8">
-          <h2>Summary</h2>
+          <h2 class="text-xl font-bold">Summary</h2>
 
           <div id="summary-list" class="my-6 flex flex-col gap-4 text-base">
             <div class="flex items-center rounded-lg bg-lightRed/5 p-4">
