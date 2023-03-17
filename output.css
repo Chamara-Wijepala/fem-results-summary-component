@@ -881,6 +881,20 @@ video {
   opacity: 1;
 }
 
+.hover\:bg-gradient-to-b:hover {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.hover\:from-lightSlateBlue:hover {
+  --tw-gradient-from: hsl(252, 100%, 67%);
+  --tw-gradient-to: hsl(252 100% 67% / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.hover\:to-lightRoyalBlue:hover {
+  --tw-gradient-to: hsl(241, 81%, 54%);
+}
+
 @media (min-width: 768px) {
   .md\:my-4 {
     margin-top: 1rem;
