@@ -419,6 +419,36 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: "Hanken Grotesk";
+
+  font-weight: 500;
+
+  src: local("Hanken Grotesk"), local("Hanken-Grotesk"),
+      url("assets/fonts/hanken-grotesk-v5-latin-500.woff2") format("woff2"),
+      url("assets/fonts/hanken-grotesk-v5-latin-500.woff") format("woff"),
+}
+
+@font-face {
+  font-family: "Hanken Grotesk";
+
+  font-weight: 700;
+
+  src: local("Hanken Grotesk"), local("Hanken-Grotesk"),
+      url("assets/fonts/hanken-grotesk-v5-latin-700.woff2") format("woff2"),
+      url("assets/fonts/hanken-grotesk-v5-latin-700.woff") format("woff"),
+}
+
+@font-face {
+  font-family: "Hanken Grotesk";
+
+  font-weight: 800;
+
+  src: local("Hanken Grotesk"), local("Hanken-Grotesk"),
+      url("assets/fonts/hanken-grotesk-v5-latin-800.woff2") format("woff2"),
+      url("assets/fonts/hanken-grotesk-v5-latin-800.woff") format("woff"),
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -513,7 +543,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.font-hanken {
+  font-family: Hanken Grotesk, sans-serif;
+}
+
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
+

@@ -2,7 +2,9 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      hanken: ["Hanken Grotesk", "sans-serif"]
+    }
   },
   plugins: [],
 }
